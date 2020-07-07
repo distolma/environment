@@ -1,0 +1,16 @@
+[user]
+	name = Dmytro Mostovyi
+	email = djmakaron2009@gmail.com
+[core]
+	editor = nano
+	pager = diff-so-fancy | less --tabs=4 -RFX
+[alias]
+	lg = log --pretty=format:'%Cred%h%Creset%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)%an%Creset' --abbrev-commit
+	lg-graph = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --date=relative
+	s = status --short --branch
+[color]
+	diff = auto
+	status = auto
+	branch = auto
+[branch]
+	autosetuprebase = always
