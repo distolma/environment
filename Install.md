@@ -13,3 +13,10 @@ Restart Finder
 ```sh
 killall Finder
 ```
+
+### Install Fonts
+```sh
+brew tap homebrew/cask-fonts
+
+brew cask install font-jetbrains-mono
+```
