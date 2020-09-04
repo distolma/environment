@@ -34,10 +34,10 @@ brew tap homebrew/cask-versions
 ### Install Packages
 ```sh
 brew install bat
-brew install diff-so-fancy
 brew install exa
 brew install fd
 brew install git
+brew install git-delta
 brew install jq
 brew install mas
 brew install nvm
