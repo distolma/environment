@@ -5,13 +5,34 @@
 xcode-select --install
 ```
 
-### Show all hidden files and folders
+### Config macOS
 ```sh
-defaults write com.apple.finder AppleShowAllFiles YES
+# Finder: show hidden files by default
+defaults write com.apple.finder AppleShowAllFiles -bool true
+
+# Avoid creating .DS_Store files on network or USB volumes
+defaults write com.apple.desktopservices DSDontWriteNetworkStores -bool true
+defaults write com.apple.desktopservices DSDontWriteUSBStores -bool true
+
+# Dock: set the icon size of Dock items to 36 pixels
+defaults write com.apple.dock tilesize -int 50
+
+# Dock: automatically hide and show the Dock
+defaults write com.apple.dock autohide -bool true
+
+# Dock: don’t show recent applications in Dock
+defaults write com.apple.dock show-recents -bool false
+
+# iTerm: don’t display the annoying prompt when quitting iTerm
+defaults write com.googlecode.iterm2 PromptOnQuit -bool false
+
+# Safari: enable “Do Not Track”
+defaults write com.apple.Safari SendDoNotTrackHTTPHeader -bool true
 ```
-Restart Finder
+Restart Finder and Dock
 ```sh
 killall Finder
+killall Dock
 ```
 
 > TODO: Rewrite all this steps using [Brew Bundle](https://github.com/homebrew/homebrew-bundle)
