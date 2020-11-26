@@ -5,6 +5,12 @@ export PATH="$VOLTA_HOME/bin:$PATH"
 # Starship
 eval "$(starship init zsh)"
 
+# The Fuck
+eval $(thefuck --alias)
+
+# Git autocomplete
+autoload -Uz compinit && compinit
+
 # Brew Completion
 if type brew &>/dev/null; then
   FPATH=$(brew --prefix)/share/zsh/site-functions:$FPATH
