@@ -8,8 +8,13 @@ eval "$(starship init zsh)"
 # The Fuck
 eval $(thefuck --alias)
 
-# Git/Brew autocomplete
-autoload -Uz compinit && compinit
+# Autocompletions
+if type brew &>/dev/null; then
+  FPATH=$(brew --prefix)/share/zsh/site-functions:$FPATH
+
+  autoload -Uz compinit
+  compinit
+fi
 
 # Aliases
 alias ..='cd ..'
