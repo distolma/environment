@@ -1,23 +1,22 @@
-# Volta
-export VOLTA_HOME="$HOME/.volta"
-export PATH="$VOLTA_HOME/bin:$PATH"
-
 # Starship
 eval "$(starship init zsh)"
 
-# The Fuck
-eval $(thefuck --alias)
+# Colors
+autoload -U colors && colors
 
-# Autocompletions
-if type brew &>/dev/null; then
-  FPATH=$(brew --prefix)/share/zsh/site-functions:$FPATH
-
-  autoload -Uz compinit
-  compinit
-fi
+# Completion
+autoload -Uz compinit
+compinit
 
 # Aliases
 alias ..='cd ..'
 alias l='exa --all'
 alias ll='exa --long --all --git -h'
 alias firefox="/Applications/Firefox.app/Contents/MacOS/firefox"
+
+# The Fuck
+eval $(thefuck --alias)
+
+# Volta
+export VOLTA_HOME="$HOME/.volta"
+export PATH="$VOLTA_HOME/bin:$PATH"
