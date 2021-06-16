@@ -63,7 +63,7 @@ brew install jq
 brew install mas
 brew install starship
 brew install thefuck
-brew install volta
+brew install fnm
 ```
 
 ### Install Apps
