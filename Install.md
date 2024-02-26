@@ -68,6 +68,7 @@ brew install pyenv
 brew install pnpm
 brew install nano
 brew install fzf
+brew install dust
 ```
 
 ### Install Apps
