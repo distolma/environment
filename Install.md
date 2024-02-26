@@ -65,6 +65,7 @@ brew install starship
 brew install thefuck
 brew install fnm
 brew install pyenv
+brew install pnpm
 ```
 
 ### Install Apps
