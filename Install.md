@@ -66,6 +66,7 @@ brew install thefuck
 brew install fnm
 brew install pyenv
 brew install pnpm
+brew install nano
 ```
 
 ### Install Apps
