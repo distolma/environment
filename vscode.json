@@ -8,6 +8,7 @@
   "window.zoomLevel": 0,
   "git.autofetch": true,
   "editor.tabSize": 2,
+  "debug.toolBarLocation": "commandCenter",
   "editor.stickyTabStops": true,
   "git.enableCommitSigning": true,
 }
