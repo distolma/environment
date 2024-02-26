@@ -19,3 +19,5 @@
 [maintenance]
 	auto = false
 	strategy = incremental
+[gpg]
+	format = ssh
