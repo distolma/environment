@@ -70,6 +70,7 @@ brew install nano
 brew install fzf
 brew install dust
 brew install duf
+brew install zoxide
 ```
 
 ### Install Apps
