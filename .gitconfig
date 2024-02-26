@@ -18,5 +18,7 @@
 	strategy = incremental
 [gpg]
 	format = ssh
+[blame]
+	ignoreRevsFile = ~/.gitblameignore
 [includeIf "gitdir:~/github/"]
     path = ~/.gitconfig-personal
