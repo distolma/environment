@@ -24,6 +24,11 @@ eval $(thefuck --alias)
 # fnm
 eval "$(fnm env --use-on-cd)"
 
+# Python
+export PYENV_ROOT="$HOME/.pyenv"
+[[ -d $PYENV_ROOT/bin ]] && export PATH="$PYENV_ROOT/bin:$PATH"
+eval "$(pyenv init -)"
+
 # Adblock
 # npm set fund false
 # npm set audit false
