@@ -84,6 +84,7 @@ brew cask install telegram
 brew cask install visual-studio-code
 brew cask install vlc
 brew cask install webtorrent
+brew cask install meetingbar
 ```
 
 ### Install Apps from Mac App Store
