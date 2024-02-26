@@ -16,3 +16,6 @@
 	autosetuprebase = always
 [interactive]
 	diffFilter = delta --color-only
+[maintenance]
+	auto = false
+	strategy = incremental
