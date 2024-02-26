@@ -64,6 +64,7 @@ brew install mas
 brew install starship
 brew install thefuck
 brew install fnm
+brew install pyenv
 ```
 
 ### Install Apps
