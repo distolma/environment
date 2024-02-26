@@ -69,6 +69,7 @@ brew install pnpm
 brew install nano
 brew install fzf
 brew install dust
+brew install duf
 ```
 
 ### Install Apps
