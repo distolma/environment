@@ -1,6 +1,3 @@
-[user]
-	name = Dmytro Mostovyi
-	email = djmakaron2009@gmail.com
 [core]
 	editor = nano
 	pager = delta
@@ -21,3 +18,5 @@
 	strategy = incremental
 [gpg]
 	format = ssh
+[includeIf "gitdir:~/github/"]
+    path = ~/.gitconfig-personal
