@@ -13,4 +13,5 @@
   "debug.toolBarLocation": "commandCenter",
   "git.autofetch": true,
   "git.enableCommitSigning": true,
+  "terminal.integrated.fontFamily": "JetBrainsMono NF",
 }
