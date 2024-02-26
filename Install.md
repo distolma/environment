@@ -95,4 +95,5 @@ mas install 1497506650 #Yubico Authenticator
 ### Install Fonts
 ```sh
 brew cask install font-jetbrains-mono
+brew cask install font-jetbrains-mono-nerd-font
 ```
