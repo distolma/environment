@@ -7,5 +7,6 @@
   "editor.minimap.enabled": false,
   "window.zoomLevel": 0,
   "git.autofetch": true,
-  "editor.tabSize": 2
+  "editor.tabSize": 2,
+  "git.enableCommitSigning": true,
 }
