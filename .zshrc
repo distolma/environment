@@ -23,3 +23,9 @@ eval $(thefuck --alias)
 
 # fnm
 eval "$(fnm env --use-on-cd)"
+
+# Adblock
+# npm set fund false
+# npm set audit false
+export DISABLE_OPENCOLLECTIVE=1
+export ADBLOCK=1
