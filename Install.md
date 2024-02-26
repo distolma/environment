@@ -67,6 +67,7 @@ brew install fnm
 brew install pyenv
 brew install pnpm
 brew install nano
+brew install fzf
 ```
 
 ### Install Apps
