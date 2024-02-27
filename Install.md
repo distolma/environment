@@ -75,23 +75,23 @@ brew install zoxide
 
 ### Install Apps
 ```sh
-brew cask install 1password
-brew cask install calibre
-brew cask install docker
-brew cask install firefox
-brew cask install google-chrome
-brew cask install glance
-brew cask install iterm2
-brew cask install qbittorrent
-brew cask install rectangle
-brew cask install spotify
-brew cask install steam
-brew cask install sublime-text
-brew cask install telegram
-brew cask install visual-studio-code
-brew cask install vlc
-brew cask install webtorrent
-brew cask install meetingbar
+brew install --cask 1password
+brew install --cask calibre
+brew install --cask docker
+brew install --cask firefox
+brew install --cask google-chrome
+brew install --cask glance
+brew install --cask iterm2
+brew install --cask qbittorrent
+brew install --cask rectangle
+brew install --cask spotify
+brew install --cask steam
+brew install --cask sublime-text
+brew install --cask telegram
+brew install --cask visual-studio-code
+brew install --cask vlc
+brew install --cask webtorrent
+brew install --cask meetingbar
 ```
 
 ### Install Apps from Mac App Store
@@ -102,6 +102,6 @@ mas install 1497506650 #Yubico Authenticator
 
 ### Install Fonts
 ```sh
-brew cask install font-jetbrains-mono
-brew cask install font-jetbrains-mono-nerd-font
+brew install --cask font-jetbrains-mono
+brew install --cask font-jetbrains-mono-nerd-font
 ```
