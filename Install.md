@@ -92,6 +92,8 @@ brew install --cask visual-studio-code
 brew install --cask vlc
 brew install --cask webtorrent
 brew install --cask meetingbar
+brew install --cask utm
+brew install --cask crystalfetch
 ```
 
 ### Install Apps from Mac App Store
