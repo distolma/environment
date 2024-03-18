@@ -77,6 +77,7 @@ brew install ctop
 brew install htop
 brew install gh
 brew install mkcert
+brew install ripgrep
 ```
 
 ### Install Apps
