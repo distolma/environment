@@ -79,6 +79,7 @@ brew install gh
 brew install mkcert
 brew install ripgrep
 brew install wget
+brew install telnet
 ```
 
 ### Install Apps
