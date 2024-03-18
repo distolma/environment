@@ -101,6 +101,7 @@ brew install --cask vlc
 brew install --cask meetingbar
 brew install --cask utm
 brew install --cask crystalfetch
+brew install --cask zoom
 ```
 
 ### Install Apps from Mac App Store
