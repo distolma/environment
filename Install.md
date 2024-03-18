@@ -71,6 +71,7 @@ brew install fzf
 brew install dust
 brew install duf
 brew install zoxide
+brew install ollama
 ```
 
 ### Install Apps
