@@ -76,6 +76,7 @@ brew install httpie
 brew install ctop
 brew install htop
 brew install gh
+brew install mkcert
 ```
 
 ### Install Apps
