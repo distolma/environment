@@ -74,6 +74,7 @@ brew install zoxide
 brew install ollama
 brew install httpie
 brew install ctop
+brew install htop
 ```
 
 ### Install Apps
