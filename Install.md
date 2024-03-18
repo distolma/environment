@@ -102,6 +102,7 @@ brew install --cask meetingbar
 brew install --cask utm
 brew install --cask crystalfetch
 brew install --cask zoom
+brew install --cask wireshark
 ```
 
 ### Install Apps from Mac App Store
