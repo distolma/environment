@@ -91,7 +91,6 @@ brew install --cask firefox
 brew install --cask google-chrome
 brew install --cask glance
 brew install --cask iterm2
-brew install --cask qbittorrent
 brew install --cask rectangle
 brew install --cask spotify
 brew install --cask steam
@@ -99,7 +98,6 @@ brew install --cask sublime-text
 brew install --cask telegram
 brew install --cask visual-studio-code
 brew install --cask vlc
-brew install --cask webtorrent
 brew install --cask meetingbar
 brew install --cask utm
 brew install --cask crystalfetch
