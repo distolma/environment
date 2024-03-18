@@ -72,6 +72,7 @@ brew install dust
 brew install duf
 brew install zoxide
 brew install ollama
+brew install httpie
 ```
 
 ### Install Apps
