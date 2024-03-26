@@ -5,6 +5,7 @@
 	lg = log --pretty=format:'%Cred%h%Creset%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)%an%Creset' --abbrev-commit
 	lg-graph = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --date=relative
 	s = status --short --branch
+	ch = !git checkout $(git branch --sort="-committerdate" | head -n 20 | fzf) # https://gist.github.com/aweary/814cdbedf01a26290cf2852c6e9cdea7
 [color]
 	diff = auto
 	status = auto
