@@ -80,6 +80,7 @@ brew install mkcert
 brew install ripgrep
 brew install wget
 brew install telnet
+brew install zenith
 ```
 
 ### Install Apps
