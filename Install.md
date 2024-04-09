@@ -55,7 +55,7 @@ brew tap homebrew/cask-versions
 ### Install Packages
 ```sh
 brew install bat
-brew install exa
+brew install eza
 brew install fd
 brew install git
 brew install git-delta

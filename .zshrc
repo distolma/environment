@@ -10,8 +10,8 @@ compinit
 
 # Aliases
 alias ..='cd ..'
-alias l='exa --all'
-alias ll='exa --long --all --git -h'
+alias l='eza --all'
+alias ll='eza --long --all --git --header --icons --group-directories-first --links'
 alias firefox="/Applications/Firefox.app/Contents/MacOS/firefox"
 alias brewdeps="brew leaves | xargs brew deps --include-build --tree"
 
