@@ -105,6 +105,7 @@ brew install --cask crystalfetch
 brew install --cask zoom
 brew install --cask wireshark
 brew install --cask mockoon
+brew install --cask alacritty
 ```
 
 ### Install Apps from Mac App Store
