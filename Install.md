@@ -46,9 +46,6 @@ brew update
 ### Install Brew Taps
 ```sh
 brew tap beeftornado/rmtree
-brew tap homebrew/cask-fonts
-brew tap homebrew/cask-drivers
-brew tap homebrew/cask-versions
 ```
 
 ### Install Packages
