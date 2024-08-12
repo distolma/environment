@@ -35,7 +35,7 @@ killall Finder
 killall Dock
 ```
 
-> TODO: Rewrite all this steps using [Brew Bundle](https://github.com/homebrew/homebrew-bundle)
+> TODO: Rewrite all these steps using [Brew Bundle](https://github.com/homebrew/homebrew-bundle)
 
 ### Install Brew
 ```sh
